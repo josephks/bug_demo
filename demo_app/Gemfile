@@ -38,3 +38,8 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'prong', path: "#{File.dirname(__FILE__)}/../prong"
+
+
+group :test do
+  gem 'rspec-its', '~> 1', :require => nil
+end
