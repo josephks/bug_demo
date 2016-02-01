@@ -42,4 +42,6 @@ gem 'prong', path: "#{File.dirname(__FILE__)}/../prong"
 
 group :test do
   gem 'rspec-its', '~> 1', :require => nil
+  gem 'cucumber', '~> 2.3.2'
+  gem 'byebug'
 end
